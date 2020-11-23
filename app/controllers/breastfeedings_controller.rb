@@ -70,6 +70,6 @@ class BreastfeedingsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def breastfeeding_params
-      params.require(:breastfeeding).permit(:cantidad, :tiempo, :baby_id)
+      params.require(:breastfeeding).permit(:qty, :time, :baby_id)
     end
 end

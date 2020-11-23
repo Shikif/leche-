@@ -16,9 +16,9 @@
   <tbody>
     <% @breastfeedings.each do |breastfeeding| %>
       <tr>
-        <td><%= breastfeeding.cantidad %></td>
-        <td><%= breastfeeding.tiempo %></td>
-        <td><%= breastfeeding.baby.nombre %></td>
+        <td><%= breastfeeding.qty %></td>
+        <td><%= breastfeeding.time %></td>
+        <td><%= breastfeeding.baby.name %></td>
         <td><%= link_to 'Show', breastfeeding %></td>
         <td><%= link_to 'Edit', edit_breastfeeding_path(breastfeeding) %></td>
         <td><%= link_to 'Destroy', breastfeeding, method: :delete, data: { confirm: 'Are you sure?' } %></td>
