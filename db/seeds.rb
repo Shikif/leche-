@@ -6,40 +6,5 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Baby.destroy_all
 
-Baby.create(
-  [
-    {
-      nombre: 'Baby 1'
-    },
 
-    {
-      nombre: 'Baby 2'
-    },
-
-    {
-      nombre: 'Baby 3'
-    },
-
-    {
-      nombre: 'Baby 4'
-    },
-
-    {
-      nombre: 'Baby 5'
-    },
-
-    {
-      nombre: 'Baby 6'
-    },
-
-    {
-      nombre: 'Baby 7'
-    },
-
-    {
-      nombre: 'Baby 8'
-    }
-  ]
-)
